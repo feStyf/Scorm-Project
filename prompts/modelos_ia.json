@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "course_outline": {
+      "description": "Geração da estrutura e tópicos do curso.",
+      "primary": "gemini-3.1-pro-preview",
+      "fallback": "gemini-3.5-flash"
+    },
+    "lesson_drafting": {
+      "description": "Agente 1 (Rascunho): Criação do conteúdo base da lição.",
+      "primary": "gemini-3.1-pro-preview",
+      "fallback": "gemini-3.5-flash"
+    },
+    "lesson_reviewing": {
+      "description": "Agente 2 (Revisor): Auditoria e refinamento do conteúdo.",
+      "primary": "gemini-3.1-pro-preview",
+      "fallback": "gemini-3.5-flash"
+    },
+    "image_generation": {
+      "description": "Geração de ilustrações educacionais e diagramas.",
+      "primary": "gemini-3.1-flash-image",
+      "fallback": "gemini-2.5-flash-image"
+    }
+  }
+}

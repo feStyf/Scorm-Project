@@ -1,0 +1,5 @@
+{
+  "name": "Remix: Copy of ScormGenAI EDS",
+  "description": "Uma ferramenta de autoria de cursos com IA. Gera esboços de cursos, conteúdo de lições e usa o Gemini Nano para criar ilustrações educacionais instantaneamente.",
+  "requestFramePermissions": []
+}
